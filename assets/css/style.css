@@ -39,21 +39,6 @@ a:hover {
 	color: #0070F3;
 }
 
-button#copy {
-	cursor: pointer;
-	border: 2px solid transparent;
-    border-radius: 4px;
-	font-size: .875rem;
-    line-height: 1.3;
-    height: 2rem;
-	padding: 3px 6px;
-	display: inline-block;
-	background-color: #111111;
-	border-color: #333333;
-	color: #fff;
-	
-}
-
 ::selection {
 	/* Set background color for selected text */
 	background: #7928CA;
@@ -66,6 +51,20 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+button#copy {
+	cursor: pointer;
+	border: 2px solid transparent;
+    border-radius: 4px;
+	font-size: .875rem;
+    line-height: 1.3;
+    height: 2rem;
+	padding: 3px 6px;
+	display: inline-block;
+	background-color: #111111;
+	border-color: #333333;
+	color: #fff;
 }
 
 p#pgp {
