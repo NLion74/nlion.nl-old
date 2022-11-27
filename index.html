@@ -8,8 +8,8 @@
     <style>.email,.xmpp{content: "_not_a_real_address_@xmpp.jp";display: none;}</style>
     <script type="text/javascript" src="assets/js/copytext.js"></script>
     <link rel="icon" href="assets/images/favicon.ico" >
-    <link rel="stylesheet" href="assets/css/style.css?v=1.4" >
-    <link rel="stylesheet" href="assets/css/fonts.css?v=1.4" >
+    <link rel="stylesheet" href="assets/css/style.css?v=1.5" >
+    <link rel="stylesheet" href="assets/css/fonts.css?v=1.5" >
 </head>
 <body>
     <header>
@@ -21,7 +21,7 @@
         </nav>
     </header>
     <p id="pgp">You can copy my PGP Key from below or import it using the following command: </p>
-    <p id="command">curl https://nlion.nl/pgp.txt | gpg --import <button id="copy" onclick=CopyText()>Copy</button></p>
+    <code id="command" onclick=CopyText()>curl https://nlion.nl/pgp.txt | gpg --import</code>
 	<details>
 		<summary>Public PGP Key<code style="margin-left:10px;">37C8 181E B870 6C8B 3C3C  EFFE E5B7 FCB5 0F93 9BED</code></summary>
 			<pre>-----BEGIN PGP PUBLIC KEY BLOCK-----
