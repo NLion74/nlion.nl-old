@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:type" content="website">
     <style>.email,.xmpp{content: "_not_a_real_address_@xmpp.jp";display: none;}</style>
+    <script type="text/javascript" src="assets/js/copytext.js"></script>
     <link rel="icon" href="assets/images/favicon.ico" >
     <link rel="stylesheet" href="assets/css/style.css" >
 </head>
@@ -18,7 +19,8 @@
             <a href="https://github.com/NLion74" rel="noreferrer" target="_blank">Github</a> /
         </nav>
     </header>
-    <p>You can import my PGP Key from below or import it using the following command: curl "nlion.nl/pgp.txt" | gpg --import</p>
+    <p id="pgp">You can copy my PGP Key from below or import it using the following command: </p>
+    <p id="command">curl https://nlion.nl/pgp.txt | gpg --import <button id="copy" onclick=CopyText()>Copy</button></p>
 	<details>
 		<summary>Public PGP Key<code style="margin-left:10px;">37C8 181E B870 6C8B 3C3C  EFFE E5B7 FCB5 0F93 9BED</code></summary>
 			<pre>-----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -107,6 +109,5 @@ fw==
 
 	<h2>Privacy</h2>
     <p>I collect no personally identifiable information about you. Though Cloudflare is used on this website. You can read the privacy Policy of Cloudflare <a href="https://www.cloudflare.com/privacypolicy/" rel="noreferrer" target="_blank">here</a> if you wish.</p><br>
-
 </body>
 </html>
