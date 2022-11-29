@@ -95,19 +95,6 @@ p#pgp {
 	margin-bottom: 1px;
 }
 
-button#copy {
-	cursor: pointer;
-	border: 2px solid transparent;
-    border-radius: 4px;
-	font-size: .875rem;
-    line-height: 1;
-    height: 1.5rem;
-	padding: 3px 6px;
-	background-color: #111111;
-	border-color: #333333;
-	color: #fff;
-}
-
 pre {
     background: #111111;
     border: 1px solid #222222;
