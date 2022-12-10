@@ -5,11 +5,13 @@
 }
 
 body {
-	margin: auto;
+	margin: 0 auto;
 	max-width: 750px;
 	padding: 2rem;
 	border-radius: 6px;
-
+	overflow-x: hidden;
+	word-break: break-word;
+	overflow-wrap: break-word;
     background-color: #000000;
     color: #fff;
     font-family: "Inter";
@@ -99,15 +101,17 @@ pre {
     background: #111111;
     border: 1px solid #222222;
     border-radius: 4px;
-    padding: 3px 6px;
+    padding: 1rem 1.4rem;
     font-size: 0.9rem;
+	max-width: 100%;
+	overflow: auto;
 }
 
 code {
-	border: 2px solid #222222;
+	border: 1px solid #222222;
     border-radius: 4px;
-    font-size: .875rem;
-    line-height: 1.3;
+    font-size: 0.9rem;
+    line-height: 1.5;
 	height: 2rem;
 	padding: 3px 6px;
 	overflow-wrap: break-word;
@@ -121,7 +125,6 @@ code, pre {
 }
 
 details {
-	/* Make the <details> look more "clickable" */
 	padding: .6rem 1rem;
 	background: #111111;
 	border: 1px solid #222222;
@@ -130,30 +133,25 @@ details {
 }
 
 summary {
-	/* Makes the <summary> look more like a "clickable" link with the pointer cursor */
 	cursor: pointer;
 	font-weight: bold;
 }
 
 details[open] {
-	/* Adjust the <details> padding while open */
 	padding-bottom: .75rem;
 }
 
 details[open] summary {
-	/* Adjust the <details> padding while open */
 	margin-bottom: 6px;
 }
 
 details[open]>*:last-child {
-	/* Resets the bottom margin of the last element in the <details> while <details> is opened. This prevents double margins/paddings. */
 	margin-bottom: 0;
 }
 
 table {
 	border-collapse: collapse;
 	width: 100%
-    
 }
 
 table caption {
